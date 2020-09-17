@@ -1,0 +1,54 @@
+{
+  "packages":
+  [
+    {
+      "name": "robohat",
+      "maintainer": "Italo Machado",
+      "websiteURL": ""https://github.com/espressif/arduino-esp32",
+      "email" : "well_25@outlook.pt",
+      "platforms":
+      [
+        {
+          "name": "ESP32-SOLO-1",
+          "architecture": "esp32-solo-1",
+          "version": "1.0.4",
+          "category": "Contributed",
+          "url": "https://github.com/iziwell/esp32-solo-1/blob/master/esp32-solo-1.rar",
+          "archiveFileName": "esp32-solo-1.zip",
+          "checksum": "SHA-256:1927B1B20B0FFA36D1F1BFBA028F90756CEE82B42227C898417ABCFA56ADC6F6",
+          "size": "8773152",
+          "boards": [
+            {
+              "name": "ESP32-SOLO-1"
+            }
+          ],
+          "toolsDependencies":
+          [
+			{
+              "packager": "esp32", 
+              "version": "1.22.0-80-g6c4433a-5.2.0", 
+              "name": "xtensa-esp32-elf-gcc"
+            }, 
+            {
+              "packager": "esp32", 
+              "version": "2.6.1", 
+              "name": "esptool_py"
+            }, 
+            {
+              "packager": "esp32", 
+              "version": "0.2.3", 
+              "name": "mkspiffs"
+            }
+			
+          ]
+          "size": "36853332"
+        },
+        
+        
+      ],
+      "tools":
+      [
+      ]
+    }
+  ]
+}
